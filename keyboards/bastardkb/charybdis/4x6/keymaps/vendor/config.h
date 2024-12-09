@@ -18,8 +18,12 @@
 
 #ifdef VIA_ENABLE
 /* VIA configuration. */
-#    define DYNAMIC_KEYMAP_LAYER_COUNT 4
+/* TODO: increase layer count to 5 */
+#    define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #endif // VIA_ENABLE
+
+/* TODO: Reverse dragscroll */
+#define CHARYBDIS_DRAGSCROLL_REVERSE_Y
 
 #ifndef __arm__
 /* Disable unused features. */
