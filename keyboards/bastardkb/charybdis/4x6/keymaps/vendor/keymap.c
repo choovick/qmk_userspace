@@ -110,7 +110,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
       KC_CAPS,LCA(KC_A),LCA(KC_S),LCA(KC_D),LCA(KC_F),LCA(KC_G),LCA(KC_H), LCA(KC_J), LCA(KC_K), LCA(KC_L), LCA(KC_SCLN),LCA(KC_QUOT),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-      _______,LCA(KC_Z),LCA(KC_X),LCA(KC_C),LCA(KC_V),MEH(KC_F1),LCA(KC_N),LCA(KC_M), LCA(KC_COMMA), LCA(KC_DOT), LCA(KC_SLSH), _______,
+      _______,LCA(KC_Z),LCA(KC_X),LCA(KC_C),LCA(KC_V),MEH(KC_F1),LSG(KC_GRV), G(KC_GRV), LCA(KC_COMMA), LCA(KC_DOT), LCA(KC_SLSH), _______,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                   _______, _______, _______,    _______, _______,
                                            _______, _______,    _______
