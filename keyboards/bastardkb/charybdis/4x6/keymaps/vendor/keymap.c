@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
       KC_RCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,       KC_H,   KC_J,   KC_K,     KC_L,    KC_SCLN, MT(MOD_LCTL | MOD_RCTL, KC_QUOT),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-  MT(MOD_LALT,    KC_LSFT,KC_Z,KC_X,MT(MOD_LALT, KC_C),MT(MOD_LCTL, KC_V),MT(MOD_LGUI, KC_B),MT(MOD_RGUI,KC_N),MT(MOD_RCTL,KC_M),MT(MOD_RALT,KC_COMM),KC_DOT,KC_SLSH, KC_RSFT,
+      KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,       KC_N,   KC_M,   KC_COMM,  KC_DOT,  KC_SLSH, KC_RSFT,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
               MO(LAYER_POINTER), TD(TD_LGUI_CTRLB), KC_LALT,   LT(3, KC_BSPC), LT(LAYER_SYMBOLS, KC_SPACE),
                                    KC_RCTL, MO(LAYER_LOWER),   LT(LAYER_LOWER, KC_ENTER)
